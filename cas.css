@@ -1,0 +1,187 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background:url(./icons/1920x1080-beach-desktop-background-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.548) ;
+    align-items: center;
+}
+
+
+.header h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.navbar a{
+    justify-content: space-between;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.navbar a:hover{
+    width: 40px;
+    box-shadow: 0px 5px 10px white;
+    transition: all 0.2s ease;
+    border-radius: 8px;
+}
+
+
+.logs{
+    margin-left: 450px;
+    margin-top: 70px;
+    width: 500px;
+    height: 450px;
+    background:rgba(0, 0, 0, 0.623);
+    border-radius: 8px;
+}
+
+.logs h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.inp-box{
+    align-content: center;
+   text-align: center;
+}
+
+.inp-box input{
+    width: 400px;
+    height: 45px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 12px;
+    margin-left: 20px;
+
+}
+
+.uname{
+    display: flex;
+    width: 430px;
+    height: 40px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+
+.uname input{
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+.uname input::placeholder{
+    color: #979393;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.upas{
+    display: flex;
+    width: 430px;
+    height: 40px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+
+.upas input{
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+.upas input::placeholder{
+    color: #979393;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.btn{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(19, 18, 18);
+    transition: all 0.3s ease;
+}
+
+.user{
+    width: 30px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 120px;
+}
+
+.logs p{
+    text-align: center;
+    color: wheat;
+    font-size: 16px;
+    word-spacing: 3px;
+    font-family: arial;
+}
+
+
+.icn{
+    width: 30px;
+    margin-left: 40px;
+}
+
+.icn:hover{
+    width: 40px;
+    box-shadow: 0px 5px 10px white;
+    transition: all 0.2s ease;
+    border-radius: 20px;
+
+}
+
+.cus{
+    width: 50px;
+    float: right;
+    margin-right: 30px;
+    bottom: 90px;
+    left: 1300px;
+    position: fixed;
+}
